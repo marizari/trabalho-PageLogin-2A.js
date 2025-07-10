@@ -17,7 +17,7 @@ body {
     min-height: 100vh;
     background: ('') no-repeat;
     background-color: #333;
-    background-image: url(img..jpg);
+    background-image: url(img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
