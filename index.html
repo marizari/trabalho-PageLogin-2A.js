@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOGIN</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="icons8-mensagem-preenchida-32.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="container">
+    <form action=""> 
+      <!---O atributo action define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados-->
+
+      <h1>Login</h1>
+
+      <div class="input-box">
+        <!--<input> É um campo para que o usuário ou usuária possa inserir algum texto, data, número, cor, etc. 
+        possui como principais atributos type, que recebe como valor o tipo do input. 
+        A tag em um formulário HTML é um elemento usado para criar campos de entrada interativos, 
+        nos quais as pessoas usuárias podem inserir dados.-->
+        
+        <input 
+          type="text" 
+          id="nameInput" 
+          placeholder="Seu nome..." 
+          required 
+        />
+        <!--O atributo required
+        Esse é um atributo booleano usado para indicar que um determinando campo de formulário é obrigatório para o envio do mesmo. 
+        Ao adicionar esse atributo a um campo de formulário, o navegador obriga o usuário a inserir dados naquele campo antes de enviar o formulário, 
+        e type é oq vc vai colocar de direção pra saber -->
+
+        <i class='bx bxs-user'></i>
+      </div>
+
+      <div class="input-box">
+        <input 
+          type="email" 
+          id="emailInput" 
+          placeholder="Seu e-mail..." 
+          required 
+        />
+        <i class='bx bx-envelope'></i>
+      </div>
+
+      <button 
+        type="submit" 
+        class="btn" 
+        id="taskList"
+      >
+        Enviar
+      </button>
+    </form>
+  </div>
+
+  <div>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
