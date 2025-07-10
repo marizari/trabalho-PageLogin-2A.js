@@ -4,7 +4,7 @@ const nameInput = document.getElementById("nameInput");
 const emailInput = document.getElementById("emailInput");
 /*getElementById("taskList") é um método que retorna uma referência ao elemento HTML com o ID taskList. Se não houver nenhum elemento com esse ID, ele retornará null.
 Quando você usa const, está dizendo que o identificador (nome da variável) não pode ser reatribuído. Isso ajuda a garantir que o valor da variável não seja alterado acidentalmente.
-A palavra-chave const em JavaScript é usada para declarar variáveis que têm um valor constante. Isso significa que uma vez que uma variável é atribuída com const, ela não pode ser reatribuída com um novo valor.a variavel n pode ser atribuida a um novo valor*/
+A palavra-chave const em JavaScript é usada para declarar variáveis que têm um valor constante. Isso significa que uma vez que uma variável  é atribuída com const, ela não pode ser reatribuída com um novo valor.a variavel n pode ser atribuida a um novo valor*/
 
 
 function validateForm(event) {
