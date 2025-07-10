@@ -11,6 +11,6 @@ backdrop-filter e uma imagem de fundo submarina, proporcionando uma experiência
 
 ---
 
-<p ><strong>“Maria Eduarda P.D.</strong></p>
+<p ><strong>Maria Eduarda P.D.</strong></p>
 <p><i>Estudante de Sistemas para Internet.</i></p>
 
